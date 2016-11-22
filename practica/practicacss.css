@@ -1,0 +1,179 @@
+body{
+margin:0;
+font-family: arial,sans-serif;
+font-style:normal;
+text-decoration:none;
+}
+
+
+
+#cabecera {
+	width: 100%;
+	height: 60px;
+	background-color: #5A5D5F;
+}
+#theme{
+	float:left;
+	margin-left:200px;
+	padding-top:0;
+}
+#cuadro{
+	float: left;
+}
+#cuerpo{
+	width: 100%;
+	height: 5000px;
+
+	
+}
+#izquierda{
+	background-image:url("arbol.jpg");
+	background-size: 100% 200%;
+	background-repeat:no-repeat;
+	width:40%;
+	height:100%;
+	float:left;
+	
+}
+#iconomenu{
+	padding-top: 30px;
+	padding-left: 170px;
+	padding-right:150px;
+	position: fixed;
+}
+
+#icono{
+	margin-left: 20px;
+}
+
+#menu{
+	text-align:center;
+	list-style-type: none;
+	padding-top: 40px;
+	margin-left: -95px;
+	margin-right: -95px;
+}
+
+ li {
+	margin-bottom: 15px;
+	border-bottom-width: 1px;
+	padding-bottom: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
+}
+
+a{
+	color: white;
+	text-decoration:none;
+
+}
+ 
+ul {
+	text-align:center;
+	margin-top: 20px;
+ }
+ 
+ #derecha{
+	width:60%;
+	height:100%;
+	background-color: white;
+	float:left;
+}
+#foto1{
+	background-image:url("foto2.png");
+	background-size:cover;
+	width:678px; 
+	height:300px;
+	margin:auto;
+	margin-top: 70px;
+	
+}
+#foto1>a{
+	color:transparent;
+	width:100%;
+	height:100%;
+	display:block;
+}
+#foto1>a:hover{
+	font-size: 40px;
+	text-align: center;
+	color:white; 
+	text-decoration: none;
+}
+
+
+#punto{
+	padding-top: 20px;
+	padding-left: 45%;
+	padding-right: 49%;
+}
+
+#texto1{
+	padding-top:20px;
+	text-align:center;
+	font-weight:normal;
+	overflow:auto;
+	line-height:20px;
+}
+#textotitulo{
+	line-height: 40px;
+}
+
+#leer{
+	margin-top: 20px;
+}
+.boton1{
+	font-size:13px;
+	background-color: white;
+	color:black;
+	margin-left:39%;
+	margin-right:42%;
+    border: 1px solid black;
+	padding:2%;
+	overflow:auto;
+}
+
+.boton1:hover{
+	background-color: #5A5D5F;;
+	color:white;
+}
+
+#doble{
+	margin-top:100px;
+	height:auto;
+	margin-left:20px;
+	padding-bottom:430px;
+}
+#flex{
+	float:left;
+	height:50%;
+	padding:20px;
+}
+#unique{
+	float:left;
+	height:50%;
+	padding:20px;
+}
+#textizquierda{
+	text-align:center;
+	line-height:20px;
+}
+#textderecha{
+	text-align:center;
+	line-height:20px;
+}
+#linea{
+	weight:100%;
+	margin-left:40px;
+	margin-right:40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
+	
+}
+#textosolo{
+	padding-top:50px ;
+	line-height:45px;
+	text-align:center;
+	margin:auto;
+}
